@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Expenses from './components/Expenses/Expenses';
+import NewExpense from "./components/NewExpense/NewExpense";
 
 const App = () => {
   const expenses = [
@@ -10,21 +11,22 @@ const App = () => {
     { id: 'e4', title: "Clothes", amount: 129.5, date: new Date(2023, 9, 14) },
   ];
 
-  // return (
-  //   <div>
-  //     <div className="First">Hello</div>
-  //     <Expenses item={expenses}/>
-  //   </div>
-  // );
+  return (
+    <div>
+      {/* <div className="First">Hello</div> */}
+      <NewExpense />
+      <Expenses item={expenses}/>
+    </div>
+  );
 
   // Alternative return code of above code in JSX:
   // Syntax: return React.createElement(element_tag, {Object_that_specifies_the_attributes}, content_inside_tag);
-  return React.createElement(
-    'div',
-    {},
-    React.createElement('div',{className: 'First'},'Hello'),
-    React.createElement(Expenses,{item: expenses})
-  );
+  // return React.createElement(
+  //   'div',
+  //   {},
+  //   React.createElement('div',{className: 'First'},'Hello'),
+  //   React.createElement(Expenses,{item: expenses})
+  // );
 }
 
 export default App;

@@ -4,7 +4,7 @@ import "./ExpenseItem.css";
 import Card from "../UI/Card";
 
 const ExpenseItem = (props) => {
-  let [newTitle, setTitle] = useState(props.title);
+  const [newTitle, setTitle] = useState(props.title); // initial value is written as an argument(props.title)
 
   const clickHandler = () => {
     // console.log(newTitle);
