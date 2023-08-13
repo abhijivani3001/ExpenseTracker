@@ -1,5 +1,5 @@
 .new-expense {
-  background-color: lightslategray;
+  background-color: #a892ee;
   padding: 1rem;
   margin: 2rem auto;
   width: 50rem;
@@ -12,13 +12,14 @@
 .new-expense button {
   font: inherit;
   cursor: pointer;
-  padding: 0.5rem 1.5rem;
+  padding: 1rem 2rem;
   border: 1px solid #40005d;
   background-color: #40005d;
   color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
   border-radius: 12px;
   margin-right: 1rem;
-  font-size: 1.5rem;
 }
 
 .new-expense button:hover,
