@@ -1,5 +1,6 @@
 .new-expense__controls {
   display: flex;
+  justify-content: left;
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 1rem;
@@ -8,6 +9,7 @@
 
 .new-expense__control label {
   font-weight: bold;
+  font-size: 1.2rem;
   margin-bottom: 0.5rem;
   display: block;
 }

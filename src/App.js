@@ -19,7 +19,7 @@ const App = () => {
     </div>
   );
 
-  // Alternative return code of above code in JSX:
+  // --> Alternative return code of above code in JSX:
   // Syntax: return React.createElement(element_tag, {Object_that_specifies_the_attributes}, content_inside_tag);
   // return React.createElement(
   //   'div',
