@@ -61,7 +61,7 @@ const ExpenseForm = (props) => {
   };
 
   return (
-    <div>
+    <React.Fragment>
       <form onSubmit={submitHandler}>
         <div className="new-expense__controls">
           <div className="new-expense__control">
@@ -83,7 +83,7 @@ const ExpenseForm = (props) => {
           </div>
         </div>
       </form>
-    </div>
+    </React.Fragment>
   );
 };
 
